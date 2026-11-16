@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://food-pr-post.pages.dev/sitemap.xml

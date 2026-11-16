@@ -1,0 +1,40 @@
+
+:root{--ink:#22271f;--muted:#6a7264;--accent:#7a4a1f;--accent2:#2f5d3a;--line:#e5e0d5;--bg:#fffdf8;--card:#ffffff;--adbg:#f4f1e8}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Hiragino Kaku Gothic ProN","Noto Sans JP",system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.8}
+a{color:var(--accent2)}
+.wrap{max-width:880px;margin:0 auto;padding:0 20px}
+header.site{border-bottom:1px solid var(--line);background:#fff}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;flex-wrap:wrap;gap:8px}
+.logo{font-size:22px;font-weight:700;color:var(--ink);text-decoration:none}
+.logo small{display:block;font-size:11px;color:var(--muted);font-weight:400}
+nav.main a{margin-left:16px;font-size:14px;text-decoration:none;color:var(--ink)}
+.hero{text-align:center;padding:48px 20px 32px}
+.hero h1{font-size:30px;line-height:1.5;margin:0 0 12px}
+.hero p{color:var(--muted);max-width:640px;margin:0 auto 20px}
+.btn{display:inline-block;background:var(--accent2);color:#fff;padding:12px 28px;border-radius:999px;text-decoration:none;font-weight:700;border:none;cursor:pointer;font-size:15px}
+.btn.sub{background:#fff;color:var(--accent2);border:1px solid var(--accent2)}
+main{padding:24px 0 48px}
+h2.sec{font-size:20px;border-left:4px solid var(--accent);padding-left:10px;margin:36px 0 16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:0 0 14px}
+.card h3{margin:4px 0 6px;font-size:17px}
+.card h3 a{color:var(--ink);text-decoration:none}
+.meta{font-size:12px;color:var(--muted)}
+.tag{display:inline-block;background:#eef3ec;color:var(--accent2);border-radius:999px;padding:1px 10px;font-size:12px;margin:2px 4px 2px 0;text-decoration:none}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.grid .card{margin:0}
+.ad-slot{background:var(--adbg);border:1px dashed #c9c2ae;color:#8a846e;text-align:center;padding:18px 10px;border-radius:8px;font-size:12px;margin:20px 0}
+article.release h1{font-size:26px;line-height:1.55}
+article.release .body p{margin:0 0 16px}
+table.spec{border-collapse:collapse;width:100%;font-size:14px}
+table.spec th,table.spec td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+table.spec th{background:#faf7ef;width:32%}
+footer.site{border-top:1px solid var(--line);background:#fff;padding:28px 0;font-size:13px;color:var(--muted)}
+footer.site a{color:var(--muted);margin-right:14px}
+form.netlify-form label{display:block;margin:14px 0 4px;font-weight:700;font-size:14px}
+form.netlify-form input,form.netlify-form textarea,form.netlify-form select{width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;font-size:15px;background:#fff}
+.note{font-size:13px;color:var(--muted)}
+ul.plain{padding-left:20px}
+.kpi{display:flex;gap:12px;flex-wrap:wrap}
+.kpi .card{flex:1;min-width:180px;text-align:center}
+.kpi b{font-size:22px;display:block}

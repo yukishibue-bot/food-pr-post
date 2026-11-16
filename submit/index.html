@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>無料で投稿する | 食PRポスト</title>
+<meta name="description" content="プレスリリースを完全無料・回数無制限で投稿できます。フォーム項目仕様と公開までの流れ。">
+<link rel="canonical" href="https://food-pr-post.pages.dev/submit/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="無料で投稿する">
+<meta property="og:description" content="プレスリリースを完全無料・回数無制限で投稿できます。フォーム項目仕様と公開までの流れ。">
+<meta property="og:url" content="https://food-pr-post.pages.dev/submit/">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="食PRポスト 新着プレスリリース" href="/feed.xml">
+
+</head>
+<body>
+<header class="site"><div class="wrap">
+<a class="logo" href="/">食PRポスト<small>食のビジネス専門・完全無料プレスリリース</small></a>
+<nav class="main">
+<a href="/releases/">プレスリリース</a><a href="/categories/">業種</a><a href="/areas/">地域</a><a href="/companies/">企業</a><a href="/digest/">日次まとめ</a><a href="/submit/">無料で投稿する</a>
+</nav></div></header>
+<main><div class="wrap">
+
+<h1>プレスリリースを無料で投稿する</h1>
+<p>掲載料・配信料・年会費は一切かかりません。投稿回数は無制限です。フォーム送信後、AI審査（スパム・誇大表現・法令・公序良俗チェック）を行い、通過したものから順次公開します。公開までの目安や却下基準は<a href="/review-policy/">審査基準</a>をご覧ください。</p>
+<div class="ad-slot" data-ad-slot="infeed" aria-hidden="true">広告枠（準備中）</div>
+<h2 class="sec">投稿フォーム（項目仕様）</h2>
+<p class="note">受付は無料のフォーム基盤に接続して運用します（デプロイ時に接続先を設定します）。送信内容はエージェントが日次で取り込み、審査・整形・公開を行います。以下は項目仕様を兼ねたフォームです。</p>
+<form class="netlify-form" name="release-submit" method="POST" action="/submit/thanks/" data-intake="form-adapter">
+<label for="f-company">会社名・団体名・屋号【必須】</label>
+<input id="f-company" name="company" required maxlength="100">
+<label for="f-contact">担当者名【必須】</label>
+<input id="f-contact" name="contact_name" required maxlength="50">
+<label for="f-email">連絡先メールアドレス【必須・非公開】</label>
+<input id="f-email" name="email" type="email" required maxlength="200">
+<label for="f-website">公式サイトURL【任意】</label>
+<input id="f-website" name="website" type="url" maxlength="300">
+<label for="f-category">業種カテゴリ【必須】</label>
+<select id="f-category" name="category" required><option value="restaurant">飲食店・レストラン</option><option value="food-maker">食品・飲料メーカー</option><option value="catering">ケータリング・デリバリー</option><option value="kitchen-car">キッチンカー・移動販売</option><option value="food-retail">食品小売・EC</option><option value="food-event">フードイベント</option><option value="supplier">食材卸・生産者</option><option value="food-business-service">店舗設備・業務用サービス</option><option value="other">その他</option></select>
+<label for="f-area">地域【必須】</label>
+<select id="f-area" name="area" required><option value="tokyo">東京都</option><option value="minato">港区</option><option value="nationwide">全国</option><option value="other">その他（本文に記載）</option></select>
+<label for="f-title">タイトル【必須・60文字以内目安】</label>
+<input id="f-title" name="title" required maxlength="120">
+<label for="f-summary">要約【必須・120文字以内目安】</label>
+<textarea id="f-summary" name="summary" required maxlength="300" rows="3"></textarea>
+<label for="f-body">本文【必須・300文字以上】</label>
+<textarea id="f-body" name="body" required minlength="300" rows="12"></textarea>
+<label for="f-keywords">キーワード【任意・カンマ区切りで最大5つ】</label>
+<input id="f-keywords" name="keywords" maxlength="200">
+<label><input type="checkbox" name="agree" required style="width:auto"> <a href="/terms/">利用規約</a>と<a href="/review-policy/">審査基準</a>に同意し、内容に虚偽がないことを確認しました【必須】</label>
+<p><button class="btn" type="submit">審査に送信する（無料）</button></p>
+</form>
+<h2 class="sec">公開までの流れ</h2>
+<ol>
+<li>フォーム送信（受付は自動）</li>
+<li>AI審査：スパム／誇大表現・景表法／公序良俗／重複投稿をチェック。通過は自動公開キューへ、疑義があるものは保留フォルダへ（個別の判断依頼は行いません）</li>
+<li>整形・カテゴリ／地域／キーワード付けをして公開。企業ページ・カテゴリページ・sitemapも自動更新</li>
+<li>公開URLをご自身のSNS・自社サイトで共有いただくと、より多くの読者に届きます</li>
+</ol>
+
+</div></main>
+<footer class="site"><div class="wrap">
+<p><a href="/about/">運営者情報</a><a href="/review-policy/">審査基準</a><a href="/terms/">利用規約</a><a href="/privacy/">プライバシーポリシー</a><a href="/contact/">お問い合わせ</a></p>
+<p>© 2026 株式会社Larco（食PRポスト 運営）</p>
+</div></footer>
+</body>
+</html>
