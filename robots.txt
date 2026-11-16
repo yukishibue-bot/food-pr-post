@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://food-pr-post.pages.dev/sitemap.xml
+Sitemap: https://food-pr-post.vercel.app/sitemap.xml
