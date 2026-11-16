@@ -48,6 +48,15 @@ form.netlify-form label{display:block;margin:14px 0 4px;font-weight:700;font-siz
 form.netlify-form input,form.netlify-form textarea,form.netlify-form select{width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;font-size:15px;background:#fff}
 .note{font-size:13px;color:var(--muted)}
 ul.plain{padding-left:20px}
+.pr-form label{display:block;margin:18px 0 6px;font-weight:700;font-size:14px}
+.pr-form input[type="text"],.pr-form input[type="email"],.pr-form input[type="url"],.pr-form textarea,.pr-form select{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:10px;font-size:15px;background:#fff;font-family:inherit}
+.pr-form textarea{line-height:1.7}
+.pr-form .req{background:var(--accent);color:#fff;font-size:11px;border-radius:4px;padding:1px 7px;margin-left:4px;vertical-align:2px}
+.pr-form .count{font-size:12px;margin:4px 0 0;text-align:right}
+.pr-form .agree{font-weight:400;display:flex;gap:8px;align-items:flex-start;margin-top:20px;font-size:14px}
+.pr-form .agree input{margin-top:6px}
+.pr-form .btn{width:100%;margin-top:18px;font-size:16px;padding:15px}
+.form-error{background:#fdeee7;border:1px solid var(--accent);color:var(--accent-dark);border-radius:10px;padding:10px 14px;font-size:14px}
 .kpi{display:flex;gap:12px;flex-wrap:wrap}
 .kpi .card{flex:1;min-width:180px;text-align:center;padding:26px 18px}
 .kpi b{font-size:25px;display:block;color:var(--accent-dark);margin-bottom:4px}
