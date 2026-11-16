@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>無料で投稿する | 食PRポスト</title>
+<meta name="description" content="プレスリリースを完全無料・回数無制限で投稿できます。フォーム項目仕様と公開までの流れ。">
+<link rel="canonical" href="https://food-pr-post.vercel.app/submit/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="無料で投稿する">
+<meta property="og:description" content="プレスリリースを完全無料・回数無制限で投稿できます。フォーム項目仕様と公開までの流れ。">
+<meta property="og:url" content="https://food-pr-post.vercel.app/submit/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="無料で投稿する">
+<meta name="twitter:description" content="プレスリリースを完全無料・回数無制限で投稿できます。フォーム項目仕様と公開までの流れ。">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="食PRポスト 新着プレスリリース" href="/feed.xml">
+
+
+</head>
+<body>
+<header class="site"><div class="wrap">
+<a class="logo" href="/">食PRポスト<small>食のビジネス専門・完全無料プレスリリース</small></a>
+<nav class="main">
+<a href="/releases/">プレスリリース</a><a href="/categories/">業種</a><a href="/areas/">地域</a><a href="/type/">発表タイプ</a><a href="/companies/">企業</a><a href="/digest/">日次まとめ</a><a href="/submit/">無料で投稿する</a>
+</nav></div></header>
+<main><div class="wrap">
+
+<h1>プレスリリースを無料で投稿する</h1>
+<p>掲載料・配信料・年会費は一切かかりません。投稿回数は無制限、会員登録も不要です。送信後、<strong>AI審査</strong>（スパム・誇大表現・法令・公序良俗チェック）を行い、通過したものから順次公開します。基準は<a href="/review-policy/">審査基準</a>をご覧ください。</p>
+<div class="ad-slot is-placeholder" data-ad-slot="infeed"><span class="ad-label">PR</span>広告枠（準備中）</div>
+<h2 class="sec">投稿フォーム</h2>
+<form id="pr-form" class="pr-form">
+<label>会社名・団体名・屋号 <span class="req">必須</span></label>
+<input type="text" name="会社名・団体名・屋号" required autocomplete="organization">
+<label>担当者名 <span class="req">必須</span></label>
+<input type="text" name="担当者名" required autocomplete="name">
+<label>連絡先メールアドレス <span class="req">必須</span> <span class="note">（非公開。審査・掲載の連絡にのみ使用します）</span></label>
+<input type="email" name="連絡先メールアドレス" required autocomplete="email">
+<label>公式サイトURL <span class="note">（任意）</span></label>
+<input type="url" name="公式サイトURL" placeholder="https://">
+<label>業種カテゴリ <span class="req">必須</span></label>
+<select name="業種カテゴリ" required>
+<option value="">選択してください</option>
+<option>飲食店・レストラン</option><option>食品・飲料メーカー</option><option>ケータリング・デリバリー</option><option>キッチンカー・移動販売</option><option>食品小売・EC</option><option>フードイベント</option><option>食材卸・生産者</option><option>店舗設備・業務用サービス</option><option>その他</option>
+</select>
+<label>発表タイプ <span class="req">必須</span></label>
+<select name="発表タイプ" required>
+<option value="">選択してください</option>
+<option>新商品・新メニュー</option><option>イベント</option><option>キャンペーン</option><option>開店・リニューアル</option><option>その他</option>
+</select>
+<label>地域 <span class="req">必須</span></label>
+<select name="地域" required>
+<option value="">選択してください</option>
+<option>東京都</option>
+<option>港区</option>
+<option>全国</option>
+<option>その他</option>
+</select>
+<label>タイトル <span class="req">必須</span> <span class="note">（60文字以内目安）</span></label>
+<input type="text" name="タイトル" required maxlength="80">
+<label>要約 <span class="req">必須</span> <span class="note">（120文字以内目安）</span></label>
+<textarea name="要約" rows="3" required maxlength="160"></textarea>
+<label>本文 <span class="req">必須</span> <span class="note">（300文字以上）</span></label>
+<textarea id="pr-body" name="本文" rows="12" required></textarea>
+<p class="count" id="pr-body-count">0文字（300文字以上）</p>
+<label>キーワード <span class="note">（任意・カンマ区切りで最大5つ）</span></label>
+<input type="text" name="キーワード">
+<h2 class="sec">Q&A <span class="note">（任意・最大3組）</span></h2>
+<p class="note">読者の疑問に答える形で書くと、検索やAIの回答に取り上げられやすくなります。記事ページにそのまま掲載されます。</p>
+<label>質問1</label>
+<input type="text" name="質問1" maxlength="120">
+<label>回答1</label>
+<textarea name="回答1" rows="3" maxlength="600"></textarea>
+<label>質問2</label>
+<input type="text" name="質問2" maxlength="120">
+<label>回答2</label>
+<textarea name="回答2" rows="3" maxlength="600"></textarea>
+<label>質問3</label>
+<input type="text" name="質問3" maxlength="120">
+<label>回答3</label>
+<textarea name="回答3" rows="3" maxlength="600"></textarea>
+<label class="agree"><input type="checkbox" required> <span><a href="/terms/" target="_blank" rel="noopener">利用規約</a>と<a href="/review-policy/" target="_blank" rel="noopener">審査基準</a>に同意します</span></label>
+<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+<p id="form-error" class="form-error" hidden></p>
+<button class="btn" type="submit" id="pr-submit">AI審査へ送信する（無料）</button>
+<p class="note">送信内容は朝・夕の2回取り込み、AI審査・整形のうえ公開します。通過したものは最短で当日中、遅くとも翌朝までに公開されます。</p>
+</form>
+
+<script>
+(function(){
+var form = document.getElementById('pr-form');
+var bodyEl = document.getElementById('pr-body');
+var count = document.getElementById('pr-body-count');
+function upd(){ var n = bodyEl.value.length; count.textContent = n + '文字（300文字以上）'; count.style.color = n >= 300? '#2f5d3a': '#bc4718';}
+bodyEl.addEventListener('input', upd); upd();
+form.addEventListener('submit', function(e){
+e.preventDefault();
+var err = document.getElementById('form-error');
+err.hidden = true;
+if (!form.checkValidity()) { form.reportValidity(); return;}
+if (bodyEl.value.trim().length < 300) { err.textContent = '本文は300文字以上で入力してください。'; err.hidden = false; bodyEl.focus(); return;}
+var btn = document.getElementById('pr-submit');
+btn.disabled = true; btn.textContent = '送信中…';
+var data = {};
+new FormData(form).forEach(function(v, k){ data[k] = v;});
+data['_subject'] = '新規投稿：' + (data['タイトル'] || '');
+data['_template'] = 'table';
+data['_captcha'] = 'false';
+data['_replyto'] = data['連絡先メールアドレス'] || '';
+fetch('https://formsubmit.co/ajax/563542deb0de6c6b25d51ec977c38894', {method: 'POST', headers: {'Content-Type': 'application/json', 'Accept': 'application/json'}, body: JSON.stringify(data)})
+.then(function(r){ if (!r.ok) { throw new Error('bad response');} return r.json();})
+.then(function(){ location.href = '/submit/thanks/';})
+.catch(function(){ btn.disabled = false; btn.textContent = 'AI審査へ送信する（無料）'; err.textContent = '送信に失敗しました。時間をおいて再度お試しください。'; err.hidden = false;});
+});
+})();
+</script>
+
+<h2 class="sec">公開までの流れ</h2>
+<ol>
+<li>フォーム送信（受付は自動）</li>
+<li>AI審査：スパム／誇大表現・景表法／公序良俗／重複投稿をチェック。通過は自動公開キューへ、疑義があるものは保留します（個別の判断依頼は行いません）</li>
+<li>整形・カテゴリ／地域／発表タイプ／キーワード付けをして公開。企業ページ・カテゴリページ・タイプ別ページも自動更新</li>
+<li>公開URLをご自身のSNS・自社サイトで共有いただくと、より多くの読者に届きます</li>
+</ol>
+
+<h2 class="sec">よくある質問</h2>
+<div class="card"><h3>本当に無料ですか？入会費や年会費はかかりますか？</h3><p>完全無料です。掲載料・配信料・年会費は一切かかりません。運営費はサイト内の広告収益でまかなっています。</p></div>
+<div class="card"><h3>会員登録は必要ですか？</h3><p>不要です。投稿フォームからそのまま送信できます。</p></div>
+<div class="card"><h3>審査はどのように行われますか？</h3><p>すべての投稿にAI審査を行い、スパム・誇大表現・景表法・公序良俗・重複投稿をチェックします。通過したものから順次公開します。基準は<a href="/review-policy/">審査基準</a>で公開しています。</p></div>
+<div class="card"><h3>公開までどれくらいかかりますか？</h3><p>投稿は朝・夕の2回、取り込み・審査します。通過したものは最短で当日中、遅くとも翌朝までに公開されます（状況により前後します）。</p></div>
+<div class="card"><h3>誰でも投稿できますか？</h3><p>法人・個人事業主・団体など、どなたでも投稿できます。食に関わる事業の発表が主役ですが、他業種の投稿も受け付けています。</p></div>
+
+
+</div></main>
+<div class="wrap"><div class="ad-slot is-placeholder" data-ad-slot="footer"><span class="ad-label">PR</span>広告枠（準備中）</div></div>
+<footer class="site"><div class="wrap">
+<p><a href="/about/">運営者情報</a><a href="/review-policy/">審査基準</a><a href="/terms/">利用規約</a><a href="/privacy/">プライバシーポリシー</a><a href="/contact/">お問い合わせ</a></p>
+<p>© 2026 食PRポスト運営事務局（食PRポスト 運営）</p>
+</div></footer>
+</body>
+</html>

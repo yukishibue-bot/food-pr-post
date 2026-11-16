@@ -1,0 +1,160 @@
+{
+  "ads": {
+    "enabled": true,
+    "infeed_interval": 4,
+    "networks": {
+      "a8net": {
+        "enabled": false,
+        "head_tag": "",
+        "label": "A8.net",
+        "slots": [
+          "article-bottom",
+          "infeed",
+          "footer"
+        ],
+        "tag": ""
+      },
+      "google_adsense": {
+        "enabled": false,
+        "head_tag": "",
+        "label": "Google AdSense",
+        "tag": ""
+      },
+      "moshimo": {
+        "enabled": false,
+        "head_tag": "",
+        "label": "もしもアフィリエイト",
+        "slots": [
+          "article-bottom",
+          "infeed",
+          "footer"
+        ],
+        "tag": ""
+      },
+      "ninja_admax": {
+        "enabled": false,
+        "head_tag": "",
+        "label": "忍者AdMax",
+        "slot_ids": {
+          "pc_300x250": 1239407,
+          "sp_320x100": 1239408
+        },
+        "tag": "<script src=\"https://adm.shinobi.jp/s/e23dc13ce400e04b1b59f481b134b265\"></script>",
+        "tag_sp_reserve": "<script src=\"https://adm.shinobi.jp/s/9d70eecebd530b9b299166d1a317020d\"></script>"
+      }
+    },
+    "note": "広告設定。全体の有効化は enabled。本番タグを入れるには、対象ネットワークの enabled を true にし、tag に配信タグ（スクリプト／バナーHTML）をそのまま貼る。priority の若い順に、枠の種類（slots）が合う最初の有効ネットワークが1つだけ差し込まれる。tag が空か enabled が false のネットワークは使われず、枠はプレースホルダ表示のままになる。head_tag は <head> 内に差し込まれるタグ（AdSense の adsbygoogle.js 読込用）。slots を省略したネットワークは全枠が対象。infeed_interval は一覧で何件ごとにインフィード枠を入れるか。",
+    "priority": [
+      "google_adsense",
+      "ninja_admax",
+      "moshimo",
+      "a8net"
+    ]
+  },
+  "areas": [
+    {
+      "description": "東京都内の食ビジネスに関するプレスリリース。",
+      "name": "東京都",
+      "slug": "tokyo"
+    },
+    {
+      "description": "東京都港区（虎ノ門・表参道など）の食ビジネスに関するプレスリリース。",
+      "name": "港区",
+      "slug": "minato"
+    },
+    {
+      "description": "全国を対象とする食ビジネスに関するプレスリリース。",
+      "name": "全国",
+      "slug": "nationwide"
+    }
+  ],
+  "categories": [
+    {
+      "description": "レストラン、カフェ、居酒屋、ベーカリーなど飲食店の新店・新メニュー・キャンペーンの発表。",
+      "name": "飲食店・レストラン",
+      "slug": "restaurant"
+    },
+    {
+      "description": "食品・飲料メーカーの新商品、リニューアル、産地・生産者との取り組みの発表。",
+      "name": "食品・飲料メーカー",
+      "slug": "food-maker"
+    },
+    {
+      "description": "ケータリング、仕出し、デリバリー、法人向けフードサービスの発表。",
+      "name": "ケータリング・デリバリー",
+      "slug": "catering"
+    },
+    {
+      "description": "キッチンカー、移動販売、出店情報、イベント出店の発表。",
+      "name": "キッチンカー・移動販売",
+      "slug": "kitchen-car"
+    },
+    {
+      "description": "食品小売店、食品EC、マルシェ、ギフト商品の発表。",
+      "name": "食品小売・EC",
+      "slug": "food-retail"
+    },
+    {
+      "description": "食のイベント、ポップアップ、フェス、試食会、料理教室の発表。",
+      "name": "フードイベント",
+      "slug": "food-event"
+    },
+    {
+      "description": "食材卸、農家・漁師・酒蔵など生産者、業務用食材の発表。",
+      "name": "食材卸・生産者",
+      "slug": "supplier"
+    },
+    {
+      "description": "厨房設備、店舗設計、業務用システムなど食の周辺産業の発表。",
+      "name": "店舗設備・業務用サービス",
+      "slug": "food-business-service"
+    },
+    {
+      "description": "上記に当てはまらない業種の発表。他業種の投稿も受け付けます。",
+      "name": "その他",
+      "slug": "other"
+    }
+  ],
+  "companies": [],
+  "releases": [],
+  "site": {
+    "base_url": "https://food-pr-post.vercel.app",
+    "base_url_note": "Cloudflare Pages無料サブドメイン想定のプレースホルダ。未取得・未デプロイ",
+    "contact_note": "お問い合わせは本サイトのお問い合わせフォームからのみ受け付けます（住所・電話番号は公開していません）。",
+    "description": "飲食店、食品・飲料メーカー、ケータリング、キッチンカー、食品小売、フードイベント、食材卸・生産者、店舗設備など、食に関わる事業者のプレスリリースを完全無料・回数無制限で掲載する食特化型メディアです。他業種の投稿も受け付けます。投稿はすべてAI審査を行い、通過したものから順次掲載します。",
+    "name": "食PRポスト",
+    "name_note": "仮称（公開前に商標・同名サービス確認が必要）",
+    "operator": "食PRポスト運営事務局",
+    "operator_description": "食PRポストは、食に関わる事業者の情報発信を支援するために運営する、食ビジネス専門の無料プレスリリースメディアです。掲載は完全無料で、飲食店・食品メーカー・ケータリング・キッチンカーなど食に関わる事業者の発表を幅広く受け付けています。",
+    "submit_form_id": "1CPv8WtE4uxO6tfCNGZxi-c-a8hAFpxWbVUuoWnjAniM",
+    "submit_form_url": "https://docs.google.com/forms/d/e/1FAIpQLSeLiZ6LsNx2cCIkYvT8t9AQn7H8xnpYiO7kxJJ9HhOPJFUrLg/viewform",
+    "tagline": "食のビジネス専門・完全無料プレスリリース"
+  },
+  "types": [
+    {
+      "description": "新商品の発売、新メニュー・新サービスの開始などの発表。",
+      "name": "新商品・新メニュー",
+      "slug": "new-product"
+    },
+    {
+      "description": "イベント、フェア、ポップアップ、試食会、出店など開催の発表。",
+      "name": "イベント",
+      "slug": "event"
+    },
+    {
+      "description": "割引、プレゼント、期間限定企画などキャンペーンの発表。",
+      "name": "キャンペーン",
+      "slug": "campaign"
+    },
+    {
+      "description": "新規開店、移転、リニューアルオープンなどの発表。",
+      "name": "開店・リニューアル",
+      "slug": "opening"
+    },
+    {
+      "description": "新商品・イベント・キャンペーン・開店のいずれにも当てはまらない発表。",
+      "name": "その他",
+      "slug": "other"
+    }
+  ]
+}
