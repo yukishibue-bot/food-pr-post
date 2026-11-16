@@ -23,7 +23,12 @@ h2.sec{font-size:20px;border-left:4px solid var(--accent);padding-left:10px;marg
 .tag{display:inline-block;background:#eef3ec;color:var(--accent2);border-radius:999px;padding:1px 10px;font-size:12px;margin:2px 4px 2px 0;text-decoration:none}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
 .grid .card{margin:0}
-.ad-slot{background:var(--adbg);border:1px dashed #c9c2ae;color:#8a846e;text-align:center;padding:18px 10px;border-radius:8px;font-size:12px;margin:20px 0}
+.ad-slot{background:var(--adbg);border:1px solid var(--line);color:#8a846e;text-align:center;padding:24px 10px 14px;border-radius:8px;font-size:12px;margin:20px 0;min-height:120px;overflow:hidden;position:relative}
+.ad-slot .ad-label{position:absolute;top:6px;left:8px;background:#fff;border:1px solid #c9c2ae;border-radius:4px;padding:0 6px;font-size:10px;line-height:1.6;color:#8a846e;letter-spacing:.08em}
+.ad-slot.is-placeholder{border-style:dashed;border-color:#c9c2ae;display:flex;align-items:center;justify-content:center}
+.ad-slot img,.ad-slot iframe,.ad-slot ins,.ad-slot object,.ad-slot embed{max-width:100%}
+.ad-slot[data-ad-slot="infeed"]{min-height:110px}
+.ad-slot[data-ad-slot="footer"]{min-height:110px;margin:28px 0 0}
 article.release h1{font-size:26px;line-height:1.55}
 article.release .body p{margin:0 0 16px}
 table.spec{border-collapse:collapse;width:100%;font-size:14px}
