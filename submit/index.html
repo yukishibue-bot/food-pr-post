@@ -27,31 +27,22 @@
 <p>掲載料・配信料・年会費は一切かかりません。投稿回数は無制限です。フォーム送信後、AI審査（スパム・誇大表現・法令・公序良俗チェック）を行い、通過したものから順次公開します。公開までの目安や却下基準は<a href="/review-policy/">審査基準</a>をご覧ください。</p>
 <div class="ad-slot" data-ad-slot="infeed" data-ad-network="ninja_admax"><span class="ad-label">PR</span><script src="https://adm.shinobi.jp/s/e23dc13ce400e04b1b59f481b134b265"></script></div>
 <h2 class="sec">投稿フォーム（項目仕様）</h2>
-<p class="note">受付は無料のフォーム基盤に接続して運用します（デプロイ時に接続先を設定します）。送信内容はエージェントが日次で取り込み、審査・整形・公開を行います。以下は項目仕様を兼ねたフォームです。</p>
-<form class="netlify-form" name="release-submit" method="POST" action="/submit/thanks/" data-intake="form-adapter">
-<label for="f-company">会社名・団体名・屋号【必須】</label>
-<input id="f-company" name="company" required maxlength="100">
-<label for="f-contact">担当者名【必須】</label>
-<input id="f-contact" name="contact_name" required maxlength="50">
-<label for="f-email">連絡先メールアドレス【必須・非公開】</label>
-<input id="f-email" name="email" type="email" required maxlength="200">
-<label for="f-website">公式サイトURL【任意】</label>
-<input id="f-website" name="website" type="url" maxlength="300">
-<label for="f-category">業種カテゴリ【必須】</label>
-<select id="f-category" name="category" required><option value="restaurant">飲食店・レストラン</option><option value="food-maker">食品・飲料メーカー</option><option value="catering">ケータリング・デリバリー</option><option value="kitchen-car">キッチンカー・移動販売</option><option value="food-retail">食品小売・EC</option><option value="food-event">フードイベント</option><option value="supplier">食材卸・生産者</option><option value="food-business-service">店舗設備・業務用サービス</option><option value="other">その他</option></select>
-<label for="f-area">地域【必須】</label>
-<select id="f-area" name="area" required><option value="tokyo">東京都</option><option value="minato">港区</option><option value="nationwide">全国</option><option value="other">その他（本文に記載）</option></select>
-<label for="f-title">タイトル【必須・60文字以内目安】</label>
-<input id="f-title" name="title" required maxlength="120">
-<label for="f-summary">要約【必須・120文字以内目安】</label>
-<textarea id="f-summary" name="summary" required maxlength="300" rows="3"></textarea>
-<label for="f-body">本文【必須・300文字以上】</label>
-<textarea id="f-body" name="body" required minlength="300" rows="12"></textarea>
-<label for="f-keywords">キーワード【任意・カンマ区切りで最大5つ】</label>
-<input id="f-keywords" name="keywords" maxlength="200">
-<label><input type="checkbox" name="agree" required style="width:auto"> <a href="/terms/">利用規約</a>と<a href="/review-policy/">審査基準</a>に同意し、内容に虚偽がないことを確認しました【必須】</label>
-<p><button class="btn" type="submit">審査に送信する（無料）</button></p>
-</form>
+<p class="note">投稿はGoogleフォームで受け付けます。送信内容は日次で取り込み、審査・整形・公開を行います。</p>
+<p><a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSeLiZ6LsNx2cCIkYvT8t9AQn7H8xnpYiO7kxJJ9HhOPJFUrLg/viewform" target="_blank" rel="noopener">投稿フォームを開く（無料・Googleフォーム）</a></p>
+<h3>入力項目</h3>
+<ul>
+<li>会社名・団体名・屋号【必須】</li>
+<li>担当者名【必須】</li>
+<li>連絡先メールアドレス【必須・非公開】</li>
+<li>公式サイトURL【任意】</li>
+<li>業種カテゴリ【必須】</li>
+<li>地域【必須】</li>
+<li>タイトル【必須・60文字以内目安】</li>
+<li>要約【必須・120文字以内目安】</li>
+<li>本文【必須・300文字以上】</li>
+<li>キーワード【任意・カンマ区切りで最大5つ】</li>
+<li>利用規約と審査基準への同意【必須】</li>
+</ul>
 <h2 class="sec">公開までの流れ</h2>
 <ol>
 <li>フォーム送信（受付は自動）</li>
