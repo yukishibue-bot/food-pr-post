@@ -1,14 +1,10 @@
 # 食PRポスト
 
-> 飲食店、食品・飲料メーカー、ケータリング、キッチンカー、食品小売、フードイベント、食材卸・生産者、店舗設備など、食に関わる事業者のプレスリリースを完全無料・回数無制限で掲載する食特化型メディアです。他業種の投稿も受け付けます。
+> 飲食店、食品・飲料メーカー、ケータリング、キッチンカー、食品小売、フードイベント、食材卸・生産者、店舗設備など、食に関わる事業者のプレスリリースを完全無料・回数無制限で掲載する食特化型メディアです。他業種の投稿も受け付けます。投稿はすべてAI審査を行い、通過したものから順次掲載します。
 
 ## プレスリリース
-- [East Catering Tokyo、公式サイトを独自ドメイン「eastcatering-tokyo.com」で公開](https://food-pr-post.vercel.app/releases/eastcatering-tokyo-official-domain/): 株式会社Larcoが運営するケータリングブランド「East Catering Tokyo」は、公式サイトを独自ドメイン eastcatering-tokyo.com へ移行し、公開しました。
-- [虎ノ門「余白 YOHAKU」ポップアップを2026年11月13日〜15日に開催しました](https://food-pr-post.vercel.app/releases/yohaku-popup-202611/): 株式会社Larcoは、虎ノ門「余白 YOHAKU」にて2026年11月13日から15日までの3日間、ポップアップを開催しました。3日間で58名のお客様にご来店いただきました。
-- [法人イベント向け「オールインワンプラン」1名6,600円（税込）・30名から。料理・ドリンク・設営・撤収まで一括対応](https://food-pr-post.vercel.app/releases/eastcatering-all-in-one-plan/): East Catering Tokyoの「オールインワンプラン」は、料理11品と2時間フリードリンク、配送・設営・スタッフ対応・撤収までを含み、1名6,600円（税込）・30名から利用できます。
 
 ## 企業
-- [株式会社Larco](https://food-pr-post.vercel.app/companies/larco/): 株式会社Larcoは「食を通じて人・地域・企業をつなぐ」を理念とし、東京都内で法人・イベント向けケータリングブランド「East Catering Tokyo」を運営しています。ブランドメッセージは「食で、場を整える。」です。
 
 ## 投稿
 - [無料で投稿する](https://food-pr-post.vercel.app/submit/): 完全無料・回数無制限。AI審査のうえ公開。
