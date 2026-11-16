@@ -64,6 +64,7 @@ ul.plain{padding-left:20px}
 .kpi .card{flex:1;min-width:180px;text-align:center;padding:26px 18px}
 .kpi b{font-size:25px;display:block;color:var(--accent-dark);margin-bottom:4px}
 .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.qa-list{display:grid;gap:12px}.qa{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px;box-shadow:var(--shadow)}.qa-q{font-weight:700;margin:0 0 8px;color:var(--ink)}.qa-a{margin:0;color:var(--sub);line-height:1.8}
 .step{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:var(--shadow)}
 .step .num{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50%;background:var(--accent);color:#fff;font-weight:800;margin-bottom:10px}
 .step h3{margin:0 0 6px;font-size:16px}
