@@ -80,3 +80,10 @@ p a{text-underline-offset:3px}
 .card{transition:transform .18s,box-shadow .18s}
 .card:hover{transform:translate(-2px,-2px);box-shadow:8px 8px 0 rgba(24,26,22,.12)}
 @media (prefers-reduced-motion: reduce){*,*::before,*::after{transition:none !important;animation:none !important}}
+
+/* --- 2026-11-16 de-AI: hand-placed irregularity (fits FRESH SIGNAL pop) --- */
+.grid .card:nth-child(3n+2){transform:rotate(-.45deg)}
+.grid .card:nth-child(4n+3){transform:rotate(.4deg)}
+.grid .card:hover{transform:translate(-2px,-2px)}
+.steps .step:nth-child(odd){transform:rotate(-.5deg)}
+.steps .step:nth-child(even){transform:rotate(.45deg)}
