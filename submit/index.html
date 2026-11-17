@@ -22,7 +22,7 @@
 <header class="site"><div class="wrap">
 <a class="logo" href="/">食PRポスト<small>食のビジネス専門・完全無料プレスリリース</small></a>
 <nav class="main">
-<a href="/releases/">プレスリリース</a><a href="/categories/">業種</a><a href="/areas/">地域</a><a href="/companies/">企業</a><a href="/digest/">日次まとめ</a><a href="/submit/">無料で投稿する</a>
+<a href="/releases/">プレスリリース</a><a href="/categories/">業種</a><a href="/areas/">地域</a><a href="/type/">発表タイプ</a><a href="/companies/">企業</a><a href="/digest/">日次まとめ</a><a href="/submit/">無料で投稿する</a>
 </nav></div></header>
 <main><div class="wrap">
 
@@ -43,6 +43,11 @@
 <select name="業種カテゴリ" required>
 <option value="">選択してください</option>
 <option>飲食店・レストラン</option><option>食品・飲料メーカー</option><option>ケータリング・デリバリー</option><option>キッチンカー・移動販売</option><option>食品小売・EC</option><option>フードイベント</option><option>食材卸・生産者</option><option>店舗設備・業務用サービス</option><option>その他</option>
+</select>
+<label>発表タイプ <span class="req">必須</span></label>
+<select name="発表タイプ" required>
+<option value="">選択してください</option>
+<option>新商品・新メニュー</option><option>イベント</option><option>キャンペーン</option><option>開店・リニューアル</option><option>その他</option>
 </select>
 <label>地域 <span class="req">必須</span></label>
 <select name="地域" required>
@@ -115,7 +120,7 @@ fetch('https://formsubmit.co/ajax/563542deb0de6c6b25d51ec977c38894', {method: 'P
 <ol>
 <li>フォーム送信（受付は自動）</li>
 <li>AI審査：スパム／誇大表現・景表法／公序良俗／重複投稿をチェック。通過は自動公開キューへ、疑義があるものは保留します（個別の判断依頼は行いません）</li>
-<li>整形・カテゴリ／地域／キーワード付けをして公開。企業ページ・カテゴリページも自動更新</li>
+<li>整形・カテゴリ／地域／発表タイプ／キーワード付けをして公開。企業ページ・カテゴリページ・タイプ別ページも自動更新</li>
 <li>公開URLをご自身のSNS・自社サイトで共有いただくと、より多くの読者に届きます</li>
 </ol>
 
